@@ -52,18 +52,18 @@ namespace Müllabfuhrkalender
                 }
 
             Console.WriteLine("Restmüll:");
-            Console.WriteLine("dates:");
+            Console.WriteLine("        dates:");
 
             foreach (var date in restmuell)
-                Console.WriteLine("  '"+date.ToString("yyyy-MM-dd")+"'");
+                Console.WriteLine("          - \"" + date.ToString("yyyy-MM-dd")+"\"");
 
             Console.WriteLine("");
 
             Console.WriteLine("Gelber Sack:");
-            Console.WriteLine("dates:");
+            Console.WriteLine("        dates:");
 
             foreach (var date in gelberSack)
-                Console.WriteLine("  '" + date.ToString("yyyy-MM-dd") + "'");
+                Console.WriteLine("          - \"" + date.ToString("yyyy-MM-dd") + "\"");
 
             Console.Read();
 
